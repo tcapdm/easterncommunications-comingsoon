@@ -677,7 +677,7 @@ strong,
 .page-footer{
 	z-index: 100;
 	position: fixed;
-	bottom: 8px;
+	bottom: 30px;
 	left: 56px;
 	margin-left: 9px;
 	color: #fff;
@@ -1649,7 +1649,10 @@ strong,
 	top: -22px;
 	left: 0;
 }
-.ease {-webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -ms-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; transition: all 500ms ease-in-out;}
-.redirect {opacity:0;background: rgba(0,0,0,0.9);position: fixed;top: 0;bottom: 0;left: 0;right: 0;z-index: 1;}
-.redirect p {position: absolute;top: 50%;left: 0;right: 0;text-align: center;-webkit-transform: translate(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%);color:#fff;}
-.redirect p span {font-weight:bold;font-size:30px;}
+.redirect {-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;opacity:0;background: rgba(0,0,0,0.9);position: fixed;bottom: 0;left: 0;right: 0;z-index: 1;padding:7px 0;}
+.redirect p {text-align: center;color:#fff;margin: 0;font-size:12px;}
+.redirect p span {font-weight:bold;}

@@ -246,12 +246,8 @@ http://themeforest.net/licenses
 		margin-left: auto;
 		width: 100%;
 	}
-	.page-cent .content, .page-about .content {
-		padding-left: 64px;
-		padding-right: 20px;
-		padding-bottom: 96px;
-		padding-top: 192px;
-	}
+	.page-footer{bottom:auto;top:20px;}
+	.page-footer a {height: 27px;}
 	.page-about .content {
 		padding-top: 192px;
 	}

@@ -25,7 +25,7 @@ $(window).load(function(){
     setTimeout(function(){
     	$('.redirect').css({'opacity':1, 'z-index':3});
 	  countdownTimer();
-	}, 10000);
+	}, 6000);
 });
 
 
