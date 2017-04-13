@@ -167,7 +167,7 @@ $(document).ready(function() {
 });
 
 
-var seconds = 100; // seconds for HTML
+var seconds = 10; // seconds for HTML
 var foo; // variable for clearInterval() function
 
 function redirect() {
