@@ -136,7 +136,6 @@ $(document).ready(function() {
 	/** Init fullpage.js */
     $('#mainpage').fullpage({
 		menu: '#qmenu',
-		anchors: ['home',  'register', 'about-us', 'contact'],
 //        verticalCentered: false,
 //        resize : false,
 //		responsive: 900,
@@ -151,6 +150,7 @@ $(document).ready(function() {
 			isSlide = false;
 		},
         afterLoad: function(anchorLink, index){
+        	$('#fp-nav').hide();
 			arrowElem.removeClass('gone');
 			pageElem.removeClass('transition');
 			if(isSlide){
