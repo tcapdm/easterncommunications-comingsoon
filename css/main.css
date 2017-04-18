@@ -51,7 +51,7 @@ body, html, h1, h2, h3, h4, h5, h6, a, ul, li{
 }
 body{
     font-family: 'OpenSans';
-    background: #fff;
+    background: #06426b;
     
     margin: 0;
     padding: 0;
@@ -752,6 +752,7 @@ strong,
 	margin-left: 50%;
     width: 50%;
     height: 100%;
+    
 }
  
 /* 6.0 Page footer with scroll down button */
@@ -1054,7 +1055,7 @@ strong,
 .page h3,
 .page h4{
     font-family: 'Opensans';
-    color: #ffffff;
+    color: #0063a7;
 }
 
 /* 6.2 Page and slide animation */
@@ -1067,12 +1068,19 @@ strong,
 	-webkit-transform: none;
 	transform: none;
 	background: transparent;
+	
 /*
 	-webkit-perspective: 1000px;
 	perspective: 1000px;
 */
 	border: none;
 }
+
+@media (min-width:601px) {
+	.page{background:#fff;}
+}
+
+.page-cent .content {background:#fff;}
 .page .content{
 	z-index: 1;
 }
@@ -1162,6 +1170,7 @@ strong,
 	border-left: 4px solid currentColor;
 	padding-left: 10px;
 	margin-left: 6px;
+	margin-top: 20px;
 }
 
 .page .content .subhead{
@@ -1181,7 +1190,7 @@ strong,
 	content: '';
 	height: 1px;
 	width: 32px;
-	background: currentColor;
+	background: #0063a7;
 	left: 0px;
 	top: 14px;
 }
@@ -1208,7 +1217,7 @@ strong,
 	right: 0;
 	height: 50%;
 	width: 1px;
-	border-left: 1px solid #fff; 
+	border-left: 1px solid #0063a7; 
 }
 /* Logo */
 .pane-when .logo{
@@ -1259,7 +1268,7 @@ strong,
     margin-top: 0.5em;
     display: block;
     text-transform: uppercase;
-    color: #fff;
+    color: #0063a7;
 	text-align: center;
 }
 .pane-when .clock .block:last-child .digit:after{
@@ -1658,4 +1667,14 @@ strong,
 	.logo-container {max-width:250px;top:auto;bottom:50%;}
 }
 
-.text-slide {max-width: 70%;}
+.text-slide {max-width: 85%;}
+
+.vertical-centered-box {position: absolute; width: 100%; height: 100%; text-align: center; }
+.vertical-centered-box:after {content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -0.25em; }
+.vertical-centered-box .content {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: inline-block; vertical-align: middle; text-align: left; font-size: 0; }
+#particles-background {
+  background: #2c2d44;
+  background-image: -moz-linear-gradient(45deg, #3f3251 2%, #022a16 100%);
+  background-image: -webkit-linear-gradient(45deg, #3f3251 2%, #022a16 100%);
+  background-image: linear-gradient(45deg, #3f3251 2%, #022a16 100%);
+}
