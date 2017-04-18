@@ -1652,3 +1652,10 @@ strong,
 .redirect {-webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -ms-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; transition: all 500ms ease-in-out;opacity:0;background: rgba(0,0,0,0.9);position: fixed;bottom: 0;left: 0;right: 0;z-index: 1;padding:7px 0;}
 .redirect p {text-align: center;color:#fff;margin: 0;font-size:12px;}
 .redirect p span {font-weight:bold;}
+
+.logo-container {max-width: 300px;position: fixed;top: 30px;left: 0;right: 0;text-align: center;z-index:9;margin:auto;}
+@media (max-width:600px) {
+	.logo-container {max-width:250px;top:auto;bottom:50%;}
+}
+
+.text-slide {max-width: 70%;}
